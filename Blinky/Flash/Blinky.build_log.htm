@@ -38,10 +38,15 @@ IRQ.c: Warning: L3912W: Option 'device' is deprecated.
 Finished: 0 information, 1 warning and 0 error messages.
 IRQ.c: Warning: C3912W: Option 'device' is deprecated.
 compiling Blinky.c...
+Blinky.c: Warning: C3912W: Option 'device' is deprecated.
+Blinky.c(32): warning:  #550-D: variable "ad_val" was set but never used
+    uint16_t ad_val = 0, ad_val_ = 0xFFFF;
+Blinky.c(32): warning:  #177-D: variable "ad_val_" was declared but never referenced
+    uint16_t ad_val = 0, ad_val_ = 0xFFFF;
 Blinky.c: Warning: A3912W: Option 'device' is deprecated.
 Blinky.c: Warning: L3912W: Option 'device' is deprecated.
 Finished: 0 information, 1 warning and 0 error messages.
-Blinky.c: Warning: C3912W: Option 'device' is deprecated.
+Blinky.c: 2 warnings, 0 errors
 compiling ADC.c...
 ADC.c: Warning: A3912W: Option 'device' is deprecated.
 ADC.c: Warning: L3912W: Option 'device' is deprecated.
@@ -49,8 +54,12 @@ Finished: 0 information, 1 warning and 0 error messages.
 ADC.c: Warning: C3912W: Option 'device' is deprecated.
 linking...
 FromELF: creating hex file...
-".\Flash\Blinky.axf" - 0 Error(s), 23 Warning(s).
+".\Flash\Blinky.axf" - 0 Error(s), 25 Warning(s).
 Load "C:\\Users\\Sameera\\Documents\\GitHub\\ARM_Project\\Blinky\\Flash\\Blinky.axf" 
 Erasing Done.
-Programming Done: 5.13 KByte/s
+Programming Done: 3.14 KByte/s
+Verify Failed.
+Load "C:\\Users\\Sameera\\Documents\\GitHub\\ARM_Project\\Blinky\\Flash\\Blinky.axf" 
+Erasing Done.
+Programming Done: 3.14 KByte/s
 Verify Failed.
