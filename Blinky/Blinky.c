@@ -48,7 +48,7 @@ int main (void) {
   GLCD_SetTextColor(White);
   GLCD_DisplayString(0, 0, __FI, "    MCB1700 Demo    ");
   GLCD_DisplayString(1, 0, __FI, "       Blinky       ");
-  GLCD_DisplayString(2, 0, __FI, "  www.gsasindia.com    ");
+  GLCD_DisplayString(2, 0, __FI, "  www.Keil.com    ");
   GLCD_SetBackColor(White);
   GLCD_SetTextColor(Blue);
   GLCD_DisplayString(5, 0, __FI, "AD value:            ");
