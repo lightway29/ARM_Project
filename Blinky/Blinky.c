@@ -16,18 +16,13 @@
 
 #include <stdio.h>
 #include "LPC17xx.H"                         /* LPC17xx definitions           */
-#include "GLCD.h"
+
 #include "Serial.h"
 #include "LED.h"
 #include "ADC.h"
 
-#define __FI        1                       /* Font index 16x24               */
                                                                          
 char text[10];
-
-/* Import external variables from IRQ.c file                                  */
-extern uint8_t  clock_1s;
-
 
 /*----------------------------------------------------------------------------
   Main Program
@@ -40,19 +35,7 @@ int main (void) {
   SER_Init();                                /* UART Initialization           */
   ADC_Init();                                /* ADC Initialization            */
 
-#ifdef __USE_LCD
-  GLCD_Init();                               /* Initialize graphical LCD      */
 
-  GLCD_Clear(White);                         /* Clear graphical LCD display   */
-  GLCD_SetBackColor(Blue);
-  GLCD_SetTextColor(White);
-  GLCD_DisplayString(0, 0, __FI, "    MCB1700 Demo    ");
-  GLCD_DisplayString(1, 0, __FI, "       Blinky       ");
-  GLCD_DisplayString(2, 0, __FI, "  www.Keil.com    ");
-  GLCD_SetBackColor(White);
-  GLCD_SetTextColor(Blue);
-  GLCD_DisplayString(5, 0, __FI, "AD value:            ");
-#endif
 
   SysTick_Config(SystemCoreClock/100);       /* Generate interrupt each 10 ms */
 
@@ -70,22 +53,14 @@ int main (void) {
       }
     }
 
-    if (ad_val ^ ad_val_) {                  /* AD value changed              */
-      ad_val_ = ad_val;
+//    if (ad_val ^ ad_val_) {                  /* AD value changed              */
+//      ad_val_ = ad_val;
+//
+//      sprintf(text, "0x%04X", ad_val);       /* format text for print out     */
+//
+//    }
 
-      sprintf(text, "0x%04X", ad_val);       /* format text for print out     */
-#ifdef __USE_LCD
-      GLCD_SetTextColor(Red);
-      GLCD_DisplayString(5,  9, __FI,  (unsigned char *)text);
-      GLCD_Bargraph (144, 6*24, 176, 20, (ad_val >> 2)); /* max bargraph is 10 bit */
-#endif
-    }
 
-    /* Print message with AD value every second                               */
-    if (clock_1s) {
-      clock_1s = 0;
 
-      printf("AD value: %s\r\n", text);
-    }
   }
 }
