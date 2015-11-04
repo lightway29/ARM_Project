@@ -1,0 +1,71 @@
+Dependencies for Project 'Blinky', Target 'LPC1768 Flash': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4F5862BC)(--device DARMP1 --pd "__EVAL SETA 1" --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x4F90D2AC)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\system_lpc17xx.o --depend .\flash\system_lpc17xx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C1734)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+F (.\GLCD_SPI_LPC1700.c)(0x53B4E6E6)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\glcd_spi_lpc1700.o --depend .\flash\glcd_spi_lpc1700.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x532C1734)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (GLCD.h)(0x4F5862BC)
+I (Font_6x8_h.h)(0x4F5862BC)
+I (Font_16x24_h.h)(0x4F5862BC)
+F (.\Retarget.c)(0x4F5862BC)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\retarget.o --depend .\flash\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x55DB4EA0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x55DB4EA6)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (Serial.h)(0x4F5862BC)
+F (.\Serial.c)(0x4F5862BC)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\serial.o --depend .\flash\serial.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C1734)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (Serial.h)(0x4F5862BC)
+F (.\LED.c)(0x4F5862BC)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\led.o --depend .\flash\led.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C1734)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (LED.h)(0x4F5862BC)
+F (.\IRQ.c)(0x4F5862BC)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\irq.o --depend .\flash\irq.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C1734)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (LED.h)(0x4F5862BC)
+I (ADC.h)(0x4F5862BC)
+F (.\Blinky.c)(0x541AC239)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\blinky.o --depend .\flash\blinky.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C1734)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (GLCD.h)(0x4F5862BC)
+I (Serial.h)(0x4F5862BC)
+I (LED.h)(0x4F5862BC)
+I (ADC.h)(0x4F5862BC)
+F (.\ADC.c)(0x4F5862BC)(-c --device DARMP1 -D__EVAL -D__MICROLIB -O0 --apcs=interwork -I C:\Keil\ARM\ARMCC\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__USE_LCD -D__ADC_IRQ-o .\flash\adc.o --depend .\flash\adc.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C1734)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (ADC.h)(0x4F5862BC)
+F (.\Abstract.txt)(0x4F5862BC)()

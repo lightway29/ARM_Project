@@ -1,0 +1,13 @@
+
+".\flash\startup_lpc17xx.o"
+".\flash\system_lpc17xx.o"
+".\flash\glcd_spi_lpc1700.o"
+".\flash\retarget.o"
+".\flash\serial.o"
+".\flash\led.o"
+".\flash\irq.o"
+".\flash\blinky.o"
+".\flash\adc.o"
+--nodebug --ro-base 0x00000000 --entry Reset_Handler --rw-base 0x10000000 --first __Vectors --strict --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf

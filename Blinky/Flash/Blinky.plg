@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\dell d630 27-9-14\gsaspn\DRIVERS\GSAS LPC1768 DR (D1)\On Board\Blinky\Blinky.uvproj
+Project File Date:  05/07/2015
+
+<h2>Output:</h2>
+Load "D:\\dell d630 27-9-14\\gsaspn\\DRIVERS\\GSAS LPC1768 DR (D1)\\On Board\\Blinky\\Flash\\Blinky.axf" 
+Erasing Done.
+Programming Done: 2.69 KByte/s
+Verify Done.
