@@ -36,23 +36,23 @@ int main (void) {
   uint32_t ad_avg = 0;
   uint16_t ad_val = 0, ad_val_ = 0xFFFF;
 
-  LED_Init();                                /* LED Initialization            */
-  SER_Init();                                /* UART Initialization           */
-  ADC_Init();                                /* ADC Initialization            */
+ // LED_Init();                                /* LED Initialization            */
+ // SER_Init();                                /* UART Initialization           */
+  ADC_Init();                                /* ADC Initialization            */8
 
-#ifdef __USE_LCD
-  GLCD_Init();                               /* Initialize graphical LCD      */
+//#ifdef __USE_LCD
+//  GLCD_Init();                               /* Initialize graphical LCD      */
 
-  GLCD_Clear(White);                         /* Clear graphical LCD display   */
-  GLCD_SetBackColor(Blue);
-  GLCD_SetTextColor(White);
-  GLCD_DisplayString(0, 0, __FI, "    MCB1700 Demo    ");
-  GLCD_DisplayString(1, 0, __FI, "       Blink       ");
-  GLCD_DisplayString(2, 0, __FI, "  www.Saithon Solution.com    ");
-  GLCD_SetBackColor(White);
-  GLCD_SetTextColor(Blue);
-  GLCD_DisplayString(5, 0, __FI, "AD value:            ");
-#endif
+//  GLCD_Clear(White);                         /* Clear graphical LCD display   */
+//  GLCD_SetBackColor(Blue);
+//  GLCD_SetTextColor(White);
+//  GLCD_DisplayString(0, 0, __FI, "    MCB1700 Demo    ");
+//  GLCD_DisplayString(1, 0, __FI, "       Blink       ");
+//  GLCD_DisplayString(2, 0, __FI, "  www.Saithon Solution.com    ");
+//  GLCD_SetBackColor(White);
+//  GLCD_SetTextColor(Blue);
+//  GLCD_DisplayString(5, 0, __FI, "AD value:            ");
+//#endif
 
   SysTick_Config(SystemCoreClock/100);       /* Generate interrupt each 10 ms */
 

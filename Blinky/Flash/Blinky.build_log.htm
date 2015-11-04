@@ -38,21 +38,25 @@ IRQ.c: Warning: L3912W: Option 'device' is deprecated.
 Finished: 0 information, 1 warning and 0 error messages.
 IRQ.c: Warning: C3912W: Option 'device' is deprecated.
 compiling Blinky.c...
-Blinky.c: Warning: A3912W: Option 'device' is deprecated.
-Blinky.c: Warning: L3912W: Option 'device' is deprecated.
-Finished: 0 information, 1 warning and 0 error messages.
 Blinky.c: Warning: C3912W: Option 'device' is deprecated.
+Blinky.c(41): warning:  #174-D: expression has no effect
+    ADC_Init();                                /* ADC Initialization            */8
+Blinky.c(57): error:  #65: expected a ";"
+    SysTick_Config(SystemCoreClock/100);       /* Generate interrupt each 10 ms */
+Blinky.c: 1 warning, 1 error
 compiling ADC.c...
 ADC.c: Warning: A3912W: Option 'device' is deprecated.
 ADC.c: Warning: L3912W: Option 'device' is deprecated.
 Finished: 0 information, 1 warning and 0 error messages.
 ADC.c: Warning: C3912W: Option 'device' is deprecated.
-linking...
-FromELF: creating hex file...
-".\Flash\Blinky.axf" - 0 Error(s), 23 Warning(s).
-Load "C:\\Users\\Sameera\\Documents\\GitHub\\ARM_Project\\Blinky\\Flash\\Blinky.axf" 
-'C:\Keil\ARM\BIN\coocox-agdi.dll' invalid peripheral driver
-Error: Flash Download failed  -  C:\Keil\ARM\BIN\coocox-agdi.dll
+".\Flash\Blinky.axf" - 1 Error(s), 22 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
+ file...
+".\Flash\Blinky.axf" - 0 Error(s), 24 Warning(s).
+\ARM\BIN\coocox-agdi.dll
 Load "C:\\Users\\Sameera\\Documents\\GitHub\\ARM_Project\\Blinky\\Flash\\Blinky.axf" 
 Erasing Done.
 Programming Done: 5.13 KByte/s
