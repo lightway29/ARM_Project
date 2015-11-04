@@ -1,0 +1,30 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="Blinky" target="8" version="2">
+  <project Name="Simulator" template_name="mbed_NXP_LPC1768_EXE">
+    <configuration
+      Name="Common"
+      Target="LPC1768"
+      c_preprocessor_definitions="__ADC_IRQ" project_directory=""
+      project_type="Executable" />
+    <folder Name="Source Files">
+      <folder Name="StartUp">
+        <file file_name="./startup_LPC17xx.s">
+          <configuration Name="Common" build_exclude_from_build="Yes" />
+        </file>
+        <file file_name="./system_LPC17xx.c" />
+      </folder>
+      <folder Name="Source Files">
+        <file file_name="./GLCD_SPI_LPC1700.c" />
+        <file file_name="./Retarget.c" />
+        <file file_name="./Serial.c" />
+        <file file_name="./LED.c" />
+        <file file_name="./IRQ.c" />
+        <file file_name="./Blinky.c" />
+        <file file_name="./ADC.c" />
+      </folder>
+      <folder Name="Documentation">
+        <file file_name="./Abstract.txt" />
+      </folder>
+    </folder>
+  </project>
+</solution>
