@@ -14,7 +14,7 @@
  *----------------------------------------------------------------------------*/
 
 #include "LPC17xx.H"                         /* LPC17xx definitions           */
-#include "LED.h"
+#include "Stepper.h"                         /* Stepper Motor definitions     */
 #include "ADC.h"
 
 uint8_t  clock_1s;                           /* Flag activated each second    */

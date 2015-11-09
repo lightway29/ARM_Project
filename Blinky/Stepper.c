@@ -14,7 +14,7 @@
  *----------------------------------------------------------------------------*/
 
 #include "LPC17xx.H"                         /* LPC17xx definitions           */
-#include "Stepper.h"                         /* Stepper Motor definitions     */
+#include "LED.h"
 
 const unsigned long led_mask[] = { 1UL<<28, 1UL<<29, 1UL<<31, 1UL<< 2,
                                    1UL<< 3, 1UL<< 4, 1UL<< 5, 1UL<< 6 };

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "LPC17xx.H"                         /* LPC17xx definitions           */
-#include "LED.h"
+#include "Stepper.h"
 #include "ADC.h"
 
 

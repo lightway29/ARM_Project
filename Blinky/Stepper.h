@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------
- * Name:    Stepper.h
+ * Name:    LED.h
  * Purpose: low level LED definitions
  * Note(s):
  *----------------------------------------------------------------------------
@@ -13,10 +13,10 @@
  * Copyright (c) 2009-2011 Keil - An ARM Company. All rights reserved.
  *----------------------------------------------------------------------------*/
 
-#ifndef __Stepper_H
-#define __Stepper_H
+#ifndef __LED_H
+#define __LED_H
 
-/* Stepper Motor Definitions */
+/* LED Definitions */
 #define LED_NUM     8                        /* Number of user LEDs          */
 
 extern void LED_Init(void);
