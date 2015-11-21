@@ -1,0 +1,54 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow addressText="" bufferWidth="-1" bufferHeight="-1" addressSpace="" />
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="Blinky" name="unnamed" />
+  <ProjectSessionItem path="Blinky;Simulator" name="unnamed" />
+  <ProjectSessionItem path="Blinky;Simulator;CMSIS Files" name="unnamed" />
+  <ProjectSessionItem path="Blinky;Simulator;Source Files" name="unnamed" />
+  <ProjectSessionItem path="Blinky;Simulator;Source Files;Documentation" name="unnamed" />
+  <ProjectSessionItem path="Blinky;Simulator;Source Files;Source Files" name="unnamed" />
+  <ProjectSessionItem path="Blinky;Simulator;Source Files;StartUp" name="unnamed" />
+  <ProjectSessionItem path="Blinky;Simulator;System Files" name="unnamed" />
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never" />
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/Blinky.c" y="23" path="/Users/lightway/ARM_Project/Blinky/Blinky.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/Serial.c" y="0" path="/Users/lightway/ARM_Project/Blinky/Serial.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/ADC.c" y="16" path="/Users/lightway/ARM_Project/Blinky/ADC.c" left="0" selected="0" name="unnamed" top="64" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/Abstract.txt" y="0" path="/Users/lightway/ARM_Project/Blinky/Abstract.txt" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/Library/Rowley Associates Limited/CrossWorks for ARM/v3/packages/targets/LPC1000/include/CMSIS/LPC17xx.H" y="69" path="/Users/lightway/Library/Rowley Associates Limited/CrossWorks for ARM/v3/packages/targets/LPC1000/include/CMSIS/LPC17xx.H" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/IRQ.c" y="16" path="/Users/lightway/ARM_Project/Blinky/IRQ.c" left="0" selected="0" name="unnamed" top="18" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/GLCD_SPI_LPC1700.c" y="0" path="/Users/lightway/ARM_Project/Blinky/GLCD_SPI_LPC1700.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="1" debugPath="/Users/lightway/ARM_Project/Blinky/Stepper.c" y="40" path="/Users/lightway/ARM_Project/Blinky/Stepper.c" left="0" selected="1" name="unnamed" top="18" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="Simulator" autoConnectTarget="ARM Simulator" debugSearchFileMap="" fileDialogInitialDirectory="/Users/lightway/ARM_Project/Blinky" fileDialogDefaultFilter="*.c" autoConnectCapabilities="391615" debugSearchPath="" buildConfiguration="THUMB Flash Release" />
+</session>
