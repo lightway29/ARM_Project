@@ -415,6 +415,11 @@
               <FileType>1</FileType>
               <FilePath>.\system_LPC17xx.c</FilePath>
             </File>
+            <File>
+              <FileName>LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\LED.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -436,11 +441,6 @@
               <FilePath>.\Serial.c</FilePath>
             </File>
             <File>
-              <FileName>LED.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\LED.c</FilePath>
-            </File>
-            <File>
               <FileName>IRQ.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\IRQ.c</FilePath>
@@ -454,6 +454,11 @@
               <FileName>ADC.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\ADC.c</FilePath>
+            </File>
+            <File>
+              <FileName>Stepper.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Stepper.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -915,6 +920,11 @@
               <FileType>1</FileType>
               <FilePath>.\system_LPC17xx.c</FilePath>
             </File>
+            <File>
+              <FileName>LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\LED.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -936,11 +946,6 @@
               <FilePath>.\Serial.c</FilePath>
             </File>
             <File>
-              <FileName>LED.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\LED.c</FilePath>
-            </File>
-            <File>
               <FileName>IRQ.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\IRQ.c</FilePath>
@@ -954,6 +959,11 @@
               <FileName>ADC.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\ADC.c</FilePath>
+            </File>
+            <File>
+              <FileName>Stepper.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Stepper.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1104,7 +1114,7 @@
             <RestoreToolbox>1</RestoreToolbox>
             <RestoreTracepoints>0</RestoreTracepoints>
             <RestoreSysVw>1</RestoreSysVw>
-            <UsePdscDebugDescription>0</UsePdscDebugDescription>
+            <UsePdscDebugDescription>1</UsePdscDebugDescription>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
           <TargetSelection>15</TargetSelection>
@@ -1378,6 +1388,11 @@
               <FileType>1</FileType>
               <FilePath>.\system_LPC17xx.c</FilePath>
             </File>
+            <File>
+              <FileName>LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\LED.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1399,11 +1414,6 @@
               <FilePath>.\Serial.c</FilePath>
             </File>
             <File>
-              <FileName>LED.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\LED.c</FilePath>
-            </File>
-            <File>
               <FileName>IRQ.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\IRQ.c</FilePath>
@@ -1417,6 +1427,11 @@
               <FileName>ADC.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\ADC.c</FilePath>
+            </File>
+            <File>
+              <FileName>Stepper.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Stepper.c</FilePath>
             </File>
           </Files>
         </Group>

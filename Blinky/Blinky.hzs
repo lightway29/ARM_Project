@@ -48,7 +48,7 @@
   <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/Library/Rowley Associates Limited/CrossWorks for ARM/v3/packages/targets/LPC1000/include/CMSIS/LPC17xx.H" y="69" path="/Users/lightway/Library/Rowley Associates Limited/CrossWorks for ARM/v3/packages/targets/LPC1000/include/CMSIS/LPC17xx.H" left="0" selected="0" name="unnamed" top="0" />
   <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/IRQ.c" y="16" path="/Users/lightway/ARM_Project/Blinky/IRQ.c" left="0" selected="0" name="unnamed" top="18" />
   <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/GLCD_SPI_LPC1700.c" y="0" path="/Users/lightway/ARM_Project/Blinky/GLCD_SPI_LPC1700.c" left="0" selected="0" name="unnamed" top="0" />
-  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="1" debugPath="/Users/lightway/ARM_Project/Blinky/Stepper.c" y="40" path="/Users/lightway/ARM_Project/Blinky/Stepper.c" left="0" selected="1" name="unnamed" top="18" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/Users/lightway/ARM_Project/Blinky/Stepper.c" y="40" path="/Users/lightway/ARM_Project/Blinky/Stepper.c" left="0" selected="1" name="unnamed" top="0" />
  </Files>
  <ARMCrossStudioWindow activeProject="Simulator" autoConnectTarget="ARM Simulator" debugSearchFileMap="" fileDialogInitialDirectory="/Users/lightway/ARM_Project/Blinky" fileDialogDefaultFilter="*.c" autoConnectCapabilities="391615" debugSearchPath="" buildConfiguration="THUMB Flash Release" />
 </session>

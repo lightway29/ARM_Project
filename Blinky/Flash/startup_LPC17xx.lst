@@ -420,11 +420,10 @@ ARM Macro Assembler    Page 7
   287 0000001C                 END
               00000000 
               00000000 
-Command Line: --xref --device=DARMP1 --apcs=interwork --depend=.\flash\startup_
-lpc17xx.d -o.\flash\startup_lpc17xx.o -IC:\Keil\ARM\ARMCC\include -IC:\Keil\ARM
-\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\NXP\LPC17xx --predefine
-="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --list=.\flash\startup_lpc17xx
-.lst startup_LPC17xx.s
+Command Line: --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\flash\startup_
+lpc17xx.d -o.\flash\startup_lpc17xx.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSI
+S\Include -IC:\Keil\ARM\Inc\NXP\LPC17xx --predefine="__EVAL SETA 1" --predefine
+="__MICROLIB SETA 1" --list=.\flash\startup_lpc17xx.lst startup_LPC17xx.s
 
 
 

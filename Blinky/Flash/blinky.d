@@ -6,6 +6,5 @@
 .\flash\blinky.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
 .\flash\blinky.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
 .\flash\blinky.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
-.\flash\blinky.o: Serial.h
-.\flash\blinky.o: LED.h
+.\flash\blinky.o: Stepper.h
 .\flash\blinky.o: ADC.h
